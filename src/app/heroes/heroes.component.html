@@ -14,3 +14,10 @@
 
     <button (click)="add(heroName.value); heroName.value=''" > Add </button>
 </div>
+
+<div>
+  <label for="new-Hero">Hero List: </label>
+  <input id="new-Hero" #heroName>
+
+  <button (click)="add(heroName.value); heroName.value=''" > Add </button>
+</div>
